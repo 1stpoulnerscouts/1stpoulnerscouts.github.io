@@ -1,0 +1,14 @@
+# Site settings
+title: 1st Poulner Scouts
+email: craigallardyce@hotmail.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+  1st Poulner Scout Group Website
+baseurl: ""
+url: "localhost" # the base hostname & protocol for your site
+github_username:  CraigAllardyce
+
+
+
+# Build settings
+markdown: kramdown
+encoding: utf-8
