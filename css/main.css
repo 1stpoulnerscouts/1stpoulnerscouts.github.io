@@ -33,7 +33,9 @@ a {
 	background-color: #fff;
 	border-color: #fff;
 }
-
+.nav-tabs{
+	border-bottom: none;
+}
 .img-text {
 	margin: 10px;
 }
