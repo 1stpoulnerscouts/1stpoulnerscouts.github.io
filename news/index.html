@@ -4,18 +4,12 @@ active: news
 ---
 
 <h1 class="page-heading">News</h1>
-
-<p>News goes here</p>
  
 {% for post in site.posts %} 
+<hr>
 <div class="media">
-	<div class="media-left">
-		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-			<img class="media-object" src="{{ post.img }}" alt="...">
-		</a>
-	</div>
 	<div class="media-body">
-		<h4 class="media-heading"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+		<h3 class="media-heading"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 		{{ post.content }}
 	</div>
 </div>
