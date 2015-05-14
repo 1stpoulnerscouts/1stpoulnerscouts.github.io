@@ -39,6 +39,9 @@ a {
 .img-text {
 	margin: 10px;
 }
+.featherlight .featherlight-content {
+	overflow: hidden;
+}
 
 footer {
 	text-align: right;
