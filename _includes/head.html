@@ -5,11 +5,9 @@
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<meta name="description" content="desc">
 
-	<link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">	
+	{% if {{include.featherlight}} %}<link type="text/css" rel="stylesheet" href="/css/featherlight.css" title="Featherlight Styles" />
+	<link type="text/css" rel="stylesheet" href="/css/featherlight.gallery.css" title="Featherlight Styles" />{% endif %}	
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-	{% if {{include.featherlight}} %}
-	<link type="text/css" rel="stylesheet" href="/css/featherlight.css" title="Featherlight Styles" />
-	<link type="text/css" rel="stylesheet" href="/css/featherlight.gallery.css" title="Featherlight Styles" />
-	{% endif %}
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
