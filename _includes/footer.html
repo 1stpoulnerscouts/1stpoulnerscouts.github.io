@@ -9,6 +9,10 @@
 </footer>
 <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+{% if {{include.featherlight}} %}
+<script src="/js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
+{% endif %}
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -17,5 +21,4 @@
 
   ga('create', 'UA-62590253-1', 'auto');
   ga('send', 'pageview');
-
 </script>
