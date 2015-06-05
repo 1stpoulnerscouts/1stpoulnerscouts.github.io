@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Climb for Nepal"
+title:  "Climb for Nepal - Setup"
 date:   2015-05-13 12:00:00
 categories: news
 active: news
