@@ -23,5 +23,5 @@ active: news
 	<li>Live Music</li>
 	<li>A great afternoon/evening</li>
 </ul>
-<p><b>Cost:</b> £5 a ticket <a href="http://www.thirstpoulner.org/?product=2015-entrance-ticket">Buy Now</a></p>
+<p><b>Cost:</b> Free entrance!</p>
 <p>Hope to see you all there for a great time!</p>
